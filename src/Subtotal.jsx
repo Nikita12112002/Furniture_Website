@@ -4,6 +4,7 @@ import { getBasketTotal } from "./Reducer";
 import CurrencyFormat from "react-currency-format";
 import {NavLink} from "react-router-dom"
 
+
 function Subtotal() {
   const [{ basket }, dispatch] = useStateValue();
   return (
